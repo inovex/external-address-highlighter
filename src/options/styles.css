@@ -1,0 +1,29 @@
+body {
+  font: message-box;
+  font-size: 1rem;
+  color: #333;
+}
+
+fieldset {
+  border: none;
+}
+
+input, button {
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+button {
+  min-width: 100px;
+}
+
+button:hover {
+  background-color: lightgrey;
+}
+
+button:active {
+  padding-top: 6px;
+  padding-bottom: 4px;
+}

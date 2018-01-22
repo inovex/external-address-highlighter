@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1>What?</h1>
+
+    <p>
+      This web-extension provides a visual reminder for when an email has external recipients.<br>
+      It works with Google's Inbox.
+    </p>
+
+
+
+    <h1>Preferences</h1>
+
+    <form>
+      <fieldset>
+        <label for="pattern">Regular expression:</label>
+
+        <p>
+          &sol; <input type="text" id="pattern" name="pattern">
+          &sol; <input type="text" name="flags">
+        </p>
+
+        <p>
+          Email-addresses are matched against this regex, to determine whether they are "internal".<br>
+          Our default is <code>/.*@inovex.de/i</code>.<br>
+          You'll have to adapt this to your definition of "internal".<br>
+          The first box contains the regex-pattern. The second box contains the regex-flags.
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <label for="selector">Selector:</label>
+
+        <p>
+          <input type="text" id="selector" name="selector">
+        </p>
+
+        <p>
+          The selector is used to find all elements containing recipient-addresses.<br>
+          Currently, the working default is <code>.l1.q2[email]</code>.<br>
+          You only have to change this, when Google change their markup.<br>
+          The <code>[email]</code> part is important. The extension reads the address from this attribute.
+        </p>
+      </fieldset>
+
+      <button type="submit">Save</button>
+    </form>
+
+    <script src="../vendor/browser-polyfill.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

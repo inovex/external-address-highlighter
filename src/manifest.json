@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "version": "1.1",
+  "name": "External-Address-Highlighter (Google Inbox)",
+  "description": "Highlights mail-recipients with external addresses.",
+
+  "icons": {
+    "48": "images/icon.svg"
+  },
+
+  "permissions": [
+    "storage"
+  ],
+
+  "options_ui": {
+    "page": "options/template.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://inbox.google.com/*"
+      ],
+      "js": [
+        "vendor/browser-polyfill.min.js",
+        "contentscript/script.js"
+      ]
+    }
+  ]
+}
