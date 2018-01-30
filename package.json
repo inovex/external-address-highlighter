@@ -1,6 +1,6 @@
 {
   "name": "external-address-highlighter",
-  "version": "1.1.1",
+  "version": "1.0.0-meaningless",
   "description": "Highlights mail-recipients with external addresses.",
   "author": "inovex",
   "license": "UNLICENSED",
