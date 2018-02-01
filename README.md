@@ -8,6 +8,7 @@ It should work in Firefox and Chrome.
 
 - node v8.9.1
 - npm v5.5.1
+- inkscape
 
 Install dev-dependencies:
 
