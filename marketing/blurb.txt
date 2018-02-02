@@ -1,0 +1,22 @@
+Name:
+
+External Address Highlighter (Google Inbox)
+
+
+Shortname:
+
+?
+
+
+Description:
+
+Highlights mail-recipients with external addresses.
+
+Detailed Description:
+While composing an email, this extension gives visual feedback
+when a recipient has an "external" email-address.
+
+External typically means "outside of the company".
+This can be configured with a regular expression.
+
+It works with Google Inbox.
