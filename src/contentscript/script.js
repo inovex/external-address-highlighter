@@ -40,7 +40,7 @@
 
   function markAsInternal(element) {
     element.style.backgroundColor = "#9CCD00";
-    element.style.color = "#F5F5F5";
+    element.style.color = "#424242";
   }
 
   function markAsExternal(element) {
