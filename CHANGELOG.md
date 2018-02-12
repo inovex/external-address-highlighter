@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
 
+### Changed
+- save preferences on every keystroke
+
 
 ## [1.1.5] - 2018-02-02
 

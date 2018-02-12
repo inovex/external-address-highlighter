@@ -3,12 +3,10 @@
   let formControls = form.elements;
 
   restorePreferences();
-  form.addEventListener("submit", savePreferences);
+  form.addEventListener("keyup", savePreferences);
 
 
   function savePreferences(event) {
-    event.preventDefault();
-
     browser.storage.local
       .set(getFormData())
       .catch(handleError);
