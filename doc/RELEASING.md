@@ -1,5 +1,8 @@
 # Releasing
 
+The extension is built locally, and then published manually for Chrome and Mozilla.
+
+
 ## Locally
 
 1. Ensure `npm run lint` is acceptable
@@ -11,13 +14,13 @@
 
 ## Chrome Webstore
 
-Dashboard:
+Dashboard:  
 https://chrome.google.com/webstore/developer/dashboard
 
 
 ## Mozilla Addons
 
-Dashboard:
+Dashboard:  
 https://addons.mozilla.org/en-US/developers/
 
 

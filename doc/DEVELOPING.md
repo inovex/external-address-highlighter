@@ -29,7 +29,7 @@ Loads `http://localhost:8000/testbed.html` (see `serve`).
 Serve the current directory (using python, see `package.json`).  
 Used to serve the testbed.
 
-Additionally, you'll have to temporarily add `<all_urls>` to `content_scripts.matches` in `manifest.json`.
+Additionally, you'll have to temporarily add `<all_urls>` to `content_scripts.matches[]` in `manifest.json`.
 
 
 `$ npm run lint`
@@ -40,7 +40,10 @@ Lint, mozilla-style
 ## Icons
 
 The original icon is `src/images/icon.svg`. The PNG-versions are generated from the SVG.
+
 `$ ./pngify-icons.sh`
+
+Generate png-icons from the svg-file (using inkscape).
 
 
 ## Resources
