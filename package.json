@@ -4,7 +4,6 @@
   "description": "Highlights mail-recipients with external addresses.",
   "author": "inovex",
   "license": "UNLICENSED",
-
   "scripts": {
     "web-ext": "web-ext",
     "start": "web-ext run",
@@ -13,8 +12,8 @@
     "build": "web-ext build",
     "sign": "web-ext sign"
   },
-
   "devDependencies": {
+    "eslint": "^4.17.0",
     "web-ext": "^2.3.1"
   }
 }
