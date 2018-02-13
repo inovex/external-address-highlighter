@@ -39,12 +39,12 @@
   }
 
   function markAsInternal(element) {
-    element.style.backgroundColor = "#9CCD00";
+    element.style.backgroundColor = "#BFF020";
     element.style.color = "#424242";
   }
 
   function markAsExternal(element) {
-    element.style.backgroundColor = "#F44336";
+    element.style.backgroundColor = "#E00051";
     element.style.color = "#F5F5F5";
   }
 })();
