@@ -1,4 +1,4 @@
-(function() {
+{
   let selector;
   let regex;
   let checkFrequency = 1000;
@@ -47,4 +47,4 @@
     element.style.backgroundColor = "#E00051";
     element.style.color = "#F5F5F5";
   }
-})();
+}

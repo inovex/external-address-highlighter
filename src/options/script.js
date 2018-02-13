@@ -1,4 +1,4 @@
-(function() {
+{
   let form = document.querySelector("form");
   let formControls = form.elements;
 
@@ -44,4 +44,4 @@
   function handleError(error) {
     console.error(error);
   }
-})();
+}
