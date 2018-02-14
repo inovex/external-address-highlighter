@@ -5,10 +5,10 @@
 
   browser.storage.local
     .get({
-        "selector": ".l1.q2[email]",
-        "pattern": ".*@inovex.de",
-        "flags": "i"
-      })
+      "selector": ".l1.q2[email]",
+      "pattern": ".*@inovex.de",
+      "flags": "i"
+    })
     .then(init);
 
   function init(preferences) {
@@ -25,7 +25,7 @@
   function checkElements() {
     document
       .querySelectorAll(selector)
-      .forEach(colorizeElement)
+      .forEach(colorizeElement);
   }
 
   function colorizeElement(element) {

@@ -6,7 +6,7 @@
   form.addEventListener("keyup", savePreferences);
 
 
-  function savePreferences(event) {
+  function savePreferences() {
     browser.storage.local
       .set(getFormData())
       .catch(handleError);
@@ -31,7 +31,7 @@
       selector: formControls.selector.value,
       pattern: formControls.pattern.value,
       flags: formControls.flags.value
-    }
+    };
   }
 
   function setFormData(data) {
