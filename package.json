@@ -8,7 +8,7 @@
     "web-ext": "web-ext",
     "start": "web-ext run",
     "serve": "python -m SimpleHTTPServer",
-    "lint": "web-ext lint",
+    "lint": "eslint src && web-ext lint",
     "build": "web-ext build",
     "sign": "web-ext sign"
   },
