@@ -1,7 +1,10 @@
 # External Address Highlighter
 
-This is a web-extension.  
-It should work in Firefox and Chrome.
+This is a web-extension.
+
+It should work in Firefox and Chrome.  
+Edge-support would be cool, but they do not support the promised-based APIs yet and can't be easily polyfilled. No port for now (see also #7).
+
 
 ## User
 
