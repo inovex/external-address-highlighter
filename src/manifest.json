@@ -4,6 +4,8 @@
   "version": "1.1.6",
   "name": "External Address Highlighter (Google Inbox)",
   "description": "Highlights mail-recipients with external addresses.",
+  "author": "inovex",
+  "homepage_url": "https://github.com/inovex/external-address-highlighter",
 
   "icons": {
     "16": "images/icon-16.png",
