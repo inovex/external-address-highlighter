@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
 
+
+## [1.1.7] - 2018-02-20
+
 ### Changed
 - made background-colors prettier (#6)
 
