@@ -22,3 +22,8 @@ External typically means "outside of the company".
 This can be configured with a regular expression.
 
 It works with Google Inbox.
+
+
+Screenshots:
+- screenshot.png 1280x800
+- screenshot_detail.png 640x400
