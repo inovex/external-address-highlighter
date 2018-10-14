@@ -45,7 +45,8 @@
           The selector is used to find all elements containing recipient-addresses.<br>
           Currently, the working default is <code>.l1.q2[email]</code>.<br>
           You only have to change this, when Google change their markup.<br>
-          The <code>[email]</code> part is important. The extension reads the address from this attribute.
+          FYI, in case you need to change it: The selector is fed into <code><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll">document.querySelectorAll()</a></code>.<br>
+          The <code>[email]</code> part is important. The extension reads the address from this attribute.<br>
         </p>
       </fieldset>
     </form>
