@@ -2,8 +2,8 @@
 
 ## Prerequisites
 
-- node v8.9.1
-- npm v5.5.1
+- node v8.12.0
+- npm v6.4.1
 - python (for testing)
 - inkscape (for icon-generation)
 
